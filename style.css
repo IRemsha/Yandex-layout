@@ -8,8 +8,8 @@ body{
 	font-family: 'Yandex Sans';	
 	font-size: 22pt;
 	font-weight: normal;
-    width: 650px;
-    margin-left: 60px;
+  width: 650px;
+  margin-left: 60px;
 	margin-right: 750px;
 	margin-top: 70px;	
 }
@@ -17,19 +17,14 @@ header{
   margin-top: 50px;
   letter-spacing: 2px;
 }
-.white-shell{
-	overflow:  hidden;
-    width: 800px;
-	height: 1400px;
-}
 .main-header-name{
   font-family: 'Yandex Sans'; 
 }
 .description-info{
   display: flex;
   flex-direction: row;
-  margin-top: 35px;
-  font-size: 13pt;
+	margin-top: 35px;
+	font-size: 13pt;
 }
 .row-info-right{
   margin-left: 30px;
@@ -38,8 +33,14 @@ header{
   font-size: 13pt;
 	margin-top: 60px;
 }
+.white-shell{
+  margin-left: -60px;
+  overflow: hidden
+}
 .figures{
 	margin-top: 180px;
+  margin-left: 65px;
+  height: 150px;
 	display: inline-block
 }
 #square {
@@ -60,8 +61,8 @@ header{
 
 #srectangle{
 	transform: rotate(20deg);
-    margin-top: 100px;
-	margin-left: 559px; 
+        margin-top: 100px;
+	margin-left: 558px; 
 	width: 150px;
 	height: 40px;
 	background: #f1cf30;
